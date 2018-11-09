@@ -1,13 +1,17 @@
 class Library
-  ARRAYS_NAME = %w(author book reader order)
+  ARRAYS_NAME = %w(author book reader order).freeze
 
   def initialize
-    @order, @book, @reader, @author = [], [], [], []
+    @order = []
+    @book = []
+    @reader = []
+    @author = []
   end
 
   def load
     ARRAYS_NAME.each do |name|
-      return unless File.exists?("data/#{name}.txt")
+      return unless File.exist?("data/#{name}.txt")
+
       File.open("data/#{name}.txt", 'r').each do |line|
         param = line.chomp.split(',')
         instance_eval("@#{name} << #{name.capitalize}.new(param[0], param[1], param[2], param[3], param[4])")
@@ -26,7 +30,7 @@ class Library
   end
 
   def group_sort(param_sort)
-   @order.group_by(&:"#{param_sort}").sort_by{|_, order| order.size}
+    @order.group_by(&:"#{param_sort}").sort_by { |_, order| order.size }
   end
 
   def often_take_book_reader
@@ -42,6 +46,6 @@ class Library
   end
 
   def readers_three_most_popular_books
-    popular_book.map {|array| array[1]}.flatten.map(&:reader).uniq.size
+    popular_book.map { |array| array[1] }.flatten.map(&:reader).uniq.size
   end
 end

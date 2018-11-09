@@ -1,4 +1,4 @@
-require './Auto_load.rb'
+require './AutoLoad.rb'
 
 library = Library.new
 library.load

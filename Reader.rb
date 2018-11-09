@@ -1,5 +1,5 @@
 class Reader
-  attr_reader  :name, :email, :city, :street, :house
+  attr_reader :name, :email, :city, :street, :house
 
   def initialize(name, email, city, street, house)
     Validation.check_string(name)
