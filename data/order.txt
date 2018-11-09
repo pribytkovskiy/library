@@ -1,13 +1,13 @@
-The Metamorphosis,Guskov Hristina,01.02.2016
-The Metamorphosis,Guskov Hristina,10.03.2016
-A Country Doctor,Guskov Hristina,23.03.2016
-The Old Man and the Sea,Pugachev Vissarion,29.04.2016
-The Garden of Eden,Pugachev Vissarion,09.03.2016
-Three Comrades,Akhmetov Daria,29.02.2016
-The Metamorphosis,Guskov Hristina,29.03.2016
-The Metamorphosis,Akhmetov Daria,29.01.2016
-Three Comrades,Ivanov Ivan,10.10.2016
-The Old Man and the Sea,Kirpa Izyaslav,10.08.2016
-The Old Man and the Sea,Kirpa Izyaslav,11.03.2016
-A Country Doctor,Kirpa Izyaslav,12.03.2016
-A Country Doctor,Stolyarov Ruben,13.03.2016
+The Metamorphosis,Guskov Hristina,2016-02-01
+The Metamorphosis,Guskov Hristina,2016-03-10
+A Country Doctor,Guskov Hristina,2016-03-23
+The Old Man and the Sea,Pugachev Vissarion,2016-04-29
+The Garden of Eden,Pugachev Vissarion,2016-03-09
+Three Comrades,Akhmetov Daria,2016-02-29
+The Metamorphosis,Guskov Hristina,2016-03-29
+The Metamorphosis,Akhmetov Daria,2016-01-29
+Three Comrades,Ivanov Ivan,2016-10-10
+The Old Man and the Sea,Kirpa Izyaslav,2016-08-10
+The Old Man and the Sea,Kirpa Izyaslav,2016-03-11
+A Country Doctor,Kirpa Izyaslav,2016-03-12
+A Country Doctor,Stolyarov Ruben,2016-03-12

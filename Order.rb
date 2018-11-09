@@ -4,7 +4,7 @@ class Order
   def initialize(book, reader, date, *all)
     @book = book
     @reader = reader
-    @date = date
+    @date = Date.parse(date) || Date.today
   end
 
   def to_s
