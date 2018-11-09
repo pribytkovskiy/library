@@ -1,8 +1,11 @@
 class Author
-  attr_accessor :name, :biography
+  extend Validation
+  attr_reader :name, :biography
 
   def initialize(name, biography, *all)
-    @name, @biography = name, biography
+    Validation.check_string(name)
+    @name = name
+    @biography = biography
   end
 
   def to_s

@@ -1,8 +1,4 @@
-require './library.rb'
-require './book.rb'
-require './order.rb'
-require './reader.rb'
-require './author.rb'
+require './Auto_load.rb'
 
 library = Library.new
 library.load

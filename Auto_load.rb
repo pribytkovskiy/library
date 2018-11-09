@@ -1,0 +1,6 @@
+require './modules/Validation.rb'
+require './Library.rb'
+require './Book.rb'
+require './Order.rb'
+require './Reader.rb'
+require './Author.rb'

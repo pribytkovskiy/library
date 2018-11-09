@@ -1,8 +1,10 @@
 class Book
-  attr_accessor :title, :author
+  attr_reader :title, :author
 
   def initialize(title, author, *all)
-    @title, @author = title, author
+    Validation.check_string(title)
+    @title = title
+    @author = author
   end
 
   def to_s

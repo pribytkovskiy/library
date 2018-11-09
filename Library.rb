@@ -9,8 +9,8 @@ class Library
     ARRAYS_NAME.each do |name|
       return unless File.exists?("data/#{name}.txt")
       File.open("data/#{name}.txt", 'r').each do |line|
-        row = line.chomp.split(',')
-        instance_eval("@#{name} << #{name.capitalize}.new(row[0], row[1], row[2], row[3], row[4])")
+        param = line.chomp.split(',')
+        instance_eval("@#{name} << #{name.capitalize}.new(param[0], param[1], param[2], param[3], param[4])")
       end
     end
   end
