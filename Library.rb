@@ -1,4 +1,5 @@
 class Library
+  include Statistic
   ARRAYS_NAME = %w(author book reader order).freeze
 
   def initialize
@@ -27,25 +28,5 @@ class Library
         end")
       end
     end
-  end
-
-  def group_sort(param_sort)
-    @order.group_by(&:"#{param_sort}").sort_by { |_, order| order.size }
-  end
-
-  def often_take_book_reader
-    group_sort('reader').last[0]
-  end
-
-  def popular_book(number = 3)
-    group_sort('book').last(number)
-  end
-
-  def most_popular_book
-    popular_book[2][0]
-  end
-
-  def readers_three_most_popular_books
-    popular_book.map { |array| array[1] }.flatten.map(&:reader).uniq.size
   end
 end

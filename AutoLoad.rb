@@ -1,4 +1,5 @@
 require './modules/Validation.rb'
+require './modules/Statistic.rb'
 require './Library.rb'
 require './Book.rb'
 require './Order.rb'
