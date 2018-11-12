@@ -2,10 +2,10 @@ class Author
   extend Validation
   attr_reader :name, :biography
 
-  def initialize(name, biography, *all)
-    Validation.check_string(name)
-    @name = name
-    @biography = biography
+  def initialize(*params)
+    @name = params[0]
+    @biography = params[1]
+    Validation.check_string(@name)
   end
 
   def to_s

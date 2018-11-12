@@ -1,6 +1,6 @@
 class Library
   include Statistic
-  ARRAYS_NAME = %w(author book reader order).freeze
+  include Uploader
 
   def initialize
     @order = []
@@ -10,14 +10,10 @@ class Library
   end
 
   def load
-    ARRAYS_NAME.each do |name|
-      return unless File.exist?("data/#{name}.txt")
-
-      File.open("data/#{name}.txt", 'r').each do |line|
-        param = line.chomp.split(',')
-        instance_eval("@#{name} << #{name.capitalize}.new(param[0], param[1], param[2], param[3], param[4])")
-      end
-    end
+    @author = add_author
+    @book = add_book
+    @reader = add_reader
+    @order = add_order
   end
 
   def save
