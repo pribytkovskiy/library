@@ -1,7 +1,9 @@
 require './AutoLoad.rb'
 
 library = Library.new
-library.load
+library.save
+
+p library
 
 puts "Best reader: #{library.often_take_book_reader}"
 puts "Most_popular_book: #{library.most_popular_book}"

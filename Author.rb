@@ -3,8 +3,8 @@ class Author
   attr_reader :name, :biography
 
   def initialize(*params)
-    @name = params[0]
-    @biography = params[1]
+    @name = params[0][0]
+    @biography = params[0][1]
     Validation.check_string(@name)
   end
 

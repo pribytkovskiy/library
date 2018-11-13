@@ -1,10 +1,10 @@
 class Book
   attr_reader :title, :author
 
-  def initialize(title, author, *all)
+  def initialize(*params)
+    @title = params[0][0]
+    @author = params[0][1]
     Validation.check_string(title)
-    @title = title
-    @author = author
   end
 
   def to_s

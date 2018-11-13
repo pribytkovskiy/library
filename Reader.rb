@@ -2,15 +2,12 @@ class Reader
   attr_reader :name, :email, :city, :street, :house
 
   def initialize(*params)
-    @name = params[0]
-    @email = params[1]
-    @city = params[2]
-    @street = params[3]
-    @house = Integer(params[4])
-    Validation.check_string(@name)
-    Validation.check_string(@email)
-    Validation.check_string(@city)
-    Validation.check_string(@street)
+    @name = params[0][0]
+    @email = params[0][1]
+    @city = params[0][2]
+    @street = params[0][3]
+    @house = Integer(params[0][4])
+    %w(name, email, city, street).each { |param| instance_eval("Validation.check_string(@#{param})") }
     Validation.check_integer(Integer(@house))
   end
 
