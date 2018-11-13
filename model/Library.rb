@@ -3,10 +3,10 @@ class Library
   include Uploader
 
   def initialize
-    @order = add_order
-    @book = add_book
-    @reader = add_reader
     @author = add_author
+    @reader = add_reader
+    @book = add_book(@author)
+    @order = add_order(@reader, @book)
   end
 
   def save

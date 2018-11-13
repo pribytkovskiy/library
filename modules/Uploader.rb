@@ -15,18 +15,23 @@ module Uploader
     @reader
   end
 
-  def add_book
+  def add_book(authors)
     @book = []
     File.open('./data/book.txt', 'r').each do |line|
-      @book << Book.new(line.chomp.split(','))
+      title = line.chomp.split(',')[0]
+      author = authors.select { |obj| obj.name == line.chomp.split(',')[1] }
+      @book << Book.new(title, author)
     end
     @book
   end
 
-  def add_order
+  def add_order(readers, books)
     @order = []
     File.open('./data/order.txt', 'r').each do |line|
-      @order << Order.new(line.chomp.split(','))
+      book = books.select { |obj| obj.title == line.chomp.split(',')[0] }[0]
+      reader = readers.select { |obj| obj.name == line.chomp.split(',')[1] }[0]
+      date = line.chomp.split(',')[2]
+      @order << Order.new(book, reader, date)
     end
     @order
   end
