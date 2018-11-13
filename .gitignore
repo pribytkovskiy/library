@@ -1,4 +1,4 @@
-./data/author*.txt
-./data/book*.txt
-./data/order*.txt
-./data/reader*.txt
+/data/author*.txt
+/data/book*.txt
+/data/order*.txt
+/data/reader*.txt
