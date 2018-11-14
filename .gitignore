@@ -1,2 +1,6 @@
+/data/authors.yml
+/data/books.yml
+/data/orders.yml
+/data/readers.yml
 data/*
 !data/
