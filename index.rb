@@ -1,6 +1,8 @@
-require './AutoLoad.rb'
+require './auto_load.rb'
 
 library = Library.new
+library.load
+library.random_add
 library.save
 
 puts "Best reader: #{library.often_take_book_reader}"

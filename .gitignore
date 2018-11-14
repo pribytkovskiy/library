@@ -1,4 +1,4 @@
-/data/author_copy.txt
-/data/book_copy.txt
-/data/order_copy.txt
-/data/reader_copy.txt
+/data/authors.yml
+/data/books.yml
+/data/orders.yml
+/data/readers.yml
