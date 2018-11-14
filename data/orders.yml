@@ -1,0 +1,77 @@
+---
+- - !ruby/object:Order
+    book: &1 !ruby/object:Book
+      title: Tirra Lirra by the River
+      author: &2 !ruby/object:Author
+        name: Desmond Sauer Jr.
+        biography:
+        - "쉅Ow5 )\U000D0594\U0006E308\U00070AB0\U00061CA27\U000340A4 敼\U000520D1苩灗\U000307DA亁㝭\\\U000DFDA2穭
+          㟊e㬌 .ꭶ9 "
+    reader: &3 !ruby/object:Reader
+      name: Luciano Bruen DDS
+      email: rico@weinat.co
+      city: Binsfort
+      street: Lee Plains
+      house: 18
+    date: 2018-10-12
+  - !ruby/object:Order
+    book: *1
+    reader: &5 !ruby/object:Reader
+      name: Darwin Will IV
+      email: joliecollins@paucekstamm.com
+      city: Ludivinahaven
+      street: Tracie Via
+      house: 40
+    date: 2018-09-26
+  - !ruby/object:Order
+    book: *1
+    reader: &6 !ruby/object:Reader
+      name: Vance Bernier
+      email: allan@batzernser.info
+      city: Paulettaborough
+      street: Reinger Gateway
+      house: 47
+    date: 2018-09-28
+  - !ruby/object:Order
+    book: *1
+    reader: !ruby/object:Reader
+      name: Zack Waters IV
+      email: kenyattaruel@kris.io
+      city: Bartonton
+      street: Kuphal Spring
+      house: 6
+    date: 2018-10-02
+  - !ruby/object:Order
+    book: &4 !ruby/object:Book
+      title: That Hideous Strength
+      author: *2
+    reader: *3
+    date: 2018-09-12
+  - !ruby/object:Order
+    book: *4
+    reader: *5
+    date: 2018-11-05
+  - !ruby/object:Order
+    book: *4
+    reader: *6
+    date: 2018-09-20
+  - !ruby/object:Order
+    book: &7 !ruby/object:Book
+      title: The Soldier's Art
+      author: *2
+    reader: *3
+    date: 2018-09-21
+  - !ruby/object:Order
+    book: *7
+    reader: *5
+    date: 2018-10-20
+  - !ruby/object:Order
+    book: !ruby/object:Book
+      title: Frequent Hearses
+      author: !ruby/object:Author
+        name: Williams Little
+        biography:
+        - " 䌧H\U0007C71A\U000E922F\U000956B4A\U0002EAF8៌뀥2m :( \U000E8039\U000A978E\U000AD432J*Q\U000D4932
+          F+\U000AD624\U0008F970;\U0009E10Dᨩ?"
+    reader: *3
+    date: 2018-11-11

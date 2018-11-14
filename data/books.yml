@@ -1,0 +1,28 @@
+---
+- - !ruby/object:Book
+    title: Tirra Lirra by the River
+    author: &1 !ruby/object:Author
+      name: Desmond Sauer Jr.
+      biography:
+      - "쉅Ow5 )\U000D0594\U0006E308\U00070AB0\U00061CA27\U000340A4 敼\U000520D1苩灗\U000307DA亁㝭\\\U000DFDA2穭
+        㟊e㬌 .ꭶ9 "
+  - !ruby/object:Book
+    title: That Hideous Strength
+    author: *1
+  - !ruby/object:Book
+    title: The Soldier's Art
+    author: *1
+  - !ruby/object:Book
+    title: Frequent Hearses
+    author: !ruby/object:Author
+      name: Williams Little
+      biography:
+      - " 䌧H\U0007C71A\U000E922F\U000956B4A\U0002EAF8៌뀥2m :( \U000E8039\U000A978E\U000AD432J*Q\U000D4932
+        F+\U000AD624\U0008F970;\U0009E10Dᨩ?"
+  - !ruby/object:Book
+    title: Butter In a Lordly Dish
+    author: !ruby/object:Author
+      name: Stephani Waters
+      biography:
+      - "6  $⩡9Gi\U0002D5EA\U0004B284N \"\U0009C459ᑏY  \U000D08CD\U0010A2F3\U00039872
+        \  9Ⴡ\U00072A97H  \U0008ED49 "
