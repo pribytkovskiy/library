@@ -1,2 +1,2 @@
-/data/*.yml
-!*.gitkeep
+/data/*
+!data/.keep
