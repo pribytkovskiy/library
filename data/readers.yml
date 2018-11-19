@@ -1,31 +1,31 @@
 ---
-- - !ruby/object:Reader
-    name: Mauricio O'Hara
-    email: glynis@schoenpfannerstill.org
-    city: Kossstad
-    street: Jesusita Freeway
-    house: 2
-  - !ruby/object:Reader
-    name: Ms. Ross Medhurst
-    email: cedric@mitchell.io
-    city: Zeldaborough
-    street: O'Kon Streets
-    house: 8
-  - !ruby/object:Reader
-    name: Risa Pfeffer
-    email: annmariehodkiewicz@jacobson.name
-    city: Wildermanstad
-    street: Kub Grove
-    house: 17
-  - !ruby/object:Reader
-    name: Marcelo Cummings PhD
-    email: manbernhard@langworth.net
-    city: North Jody
-    street: Langworth Park
-    house: 77
-  - !ruby/object:Reader
-    name: Julian Hoeger
-    email: charoletteconn@franecki.org
-    city: North Pastyshire
-    street: Franklyn Points
-    house: 30
+- !ruby/object:Reader
+  name: Donte Kohler
+  email: epifaniawuckert@leffler.name
+  city: East Otis
+  street: Patrick Motorway
+  house: 22
+- !ruby/object:Reader
+  name: Velma Shanahan
+  email: nanci@cormier.net
+  city: Koeppbury
+  street: Kuhic Hill
+  house: 31
+- !ruby/object:Reader
+  name: Marianela Schuster
+  email: loraine@kuhicfeest.biz
+  city: South Regeniaside
+  street: Macejkovic Squares
+  house: 24
+- !ruby/object:Reader
+  name: Torri Cassin IV
+  email: jackkling@nicolashegmann.com
+  city: Laureenside
+  street: Grady Mountains
+  house: 41
+- !ruby/object:Reader
+  name: Francoise Reilly V
+  email: nathanial@murazik.info
+  city: Port Barrettstad
+  street: Bradtke Curve
+  house: 1

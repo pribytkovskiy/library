@@ -1,75 +1,74 @@
 ---
-- - !ruby/object:Order
-    book: &1 !ruby/object:Book
-      title: Cabbages and Kings
-      author: &2 !ruby/object:Author
-        name: Jayne Hand
-        biography: "h 㚓\U0005429BWb뢣$L>UjF 匃HG \U000E2087\U000EF727N \U0007E989䤨   ꒐}
-          \U00045CD6၎"
-    reader: &3 !ruby/object:Reader
-      name: Mauricio O'Hara
-      email: glynis@schoenpfannerstill.org
-      city: Kossstad
-      street: Jesusita Freeway
-      house: 2
-    date: 2018-10-15
-  - !ruby/object:Order
-    book: *1
-    reader: &5 !ruby/object:Reader
-      name: Ms. Ross Medhurst
-      email: cedric@mitchell.io
-      city: Zeldaborough
-      street: O'Kon Streets
-      house: 8
-    date: 2018-11-17
-  - !ruby/object:Order
-    book: *1
-    reader: &6 !ruby/object:Reader
-      name: Risa Pfeffer
-      email: annmariehodkiewicz@jacobson.name
-      city: Wildermanstad
-      street: Kub Grove
-      house: 17
-    date: 2018-10-30
-  - !ruby/object:Order
-    book: *1
-    reader: !ruby/object:Reader
-      name: Marcelo Cummings PhD
-      email: manbernhard@langworth.net
-      city: North Jody
-      street: Langworth Park
-      house: 77
-    date: 2018-11-15
-  - !ruby/object:Order
-    book: &4 !ruby/object:Book
-      title: I Know Why the Caged Bird Sings
-      author: *2
-    reader: *3
-    date: 2018-11-09
-  - !ruby/object:Order
-    book: *4
-    reader: *5
-    date: 2018-11-05
-  - !ruby/object:Order
-    book: *4
-    reader: *6
-    date: 2018-11-09
-  - !ruby/object:Order
-    book: &7 !ruby/object:Book
-      title: The Proper Study
-      author: *2
-    reader: *3
-    date: 2018-09-27
-  - !ruby/object:Order
-    book: *7
-    reader: *5
-    date: 2018-11-14
-  - !ruby/object:Order
-    book: !ruby/object:Book
-      title: Lilies of the Field
-      author: !ruby/object:Author
-        name: Tyrone Champlin
-        biography: "懦ꜳ- ṝu㹑\U000744B1W\U0002076D5\U0007050D\U000BE108 \U000636BB\U0007222C䢿.\U000C2895츁
-          #;[\U0003BBF7I\U00081395  ଧ^\U000E2BCC"
-    reader: *3
-    date: 2018-09-01
+- !ruby/object:Order
+  book: &1 !ruby/object:Book
+    title: Some Buried Caesar
+    author: &2 !ruby/object:Author
+      name: Ms. Salvatore Rowe
+      biography: "泇 3㯡 㦮଒\U000ADA54- n 뭬<R U\U000E4071㍶0  㖌Ac\U000F63A2༟QF\U0010375FC굣"
+  reader: &3 !ruby/object:Reader
+    name: Donte Kohler
+    email: epifaniawuckert@leffler.name
+    city: East Otis
+    street: Patrick Motorway
+    house: 22
+  date: 2018-11-09
+- !ruby/object:Order
+  book: *1
+  reader: &5 !ruby/object:Reader
+    name: Velma Shanahan
+    email: nanci@cormier.net
+    city: Koeppbury
+    street: Kuhic Hill
+    house: 31
+  date: 2018-10-15
+- !ruby/object:Order
+  book: *1
+  reader: &6 !ruby/object:Reader
+    name: Marianela Schuster
+    email: loraine@kuhicfeest.biz
+    city: South Regeniaside
+    street: Macejkovic Squares
+    house: 24
+  date: 2018-10-18
+- !ruby/object:Order
+  book: *1
+  reader: !ruby/object:Reader
+    name: Torri Cassin IV
+    email: jackkling@nicolashegmann.com
+    city: Laureenside
+    street: Grady Mountains
+    house: 41
+  date: 2018-11-08
+- !ruby/object:Order
+  book: &4 !ruby/object:Book
+    title: The Doors of Perception
+    author: *2
+  reader: *3
+  date: 2018-10-17
+- !ruby/object:Order
+  book: *4
+  reader: *5
+  date: 2018-09-20
+- !ruby/object:Order
+  book: *4
+  reader: *6
+  date: 2018-11-12
+- !ruby/object:Order
+  book: &7 !ruby/object:Book
+    title: The Wealth of Nations
+    author: *2
+  reader: *3
+  date: 2018-11-12
+- !ruby/object:Order
+  book: *7
+  reader: *5
+  date: 2018-10-25
+- !ruby/object:Order
+  book: !ruby/object:Book
+    title: Mr Standfast
+    author: !ruby/object:Author
+      name: Antione Barrows
+      biography: " ㊒\x14D⭍ẗ\U00040D4D9᣶Y䗲$N: 昔, \x1D\U000F9F6A἞@쁇\U000A3AE5R D\U0010C9BA
+        \ \U0005DB6DY"
+  reader: *3
+  date: 2018-11-11

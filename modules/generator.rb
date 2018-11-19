@@ -17,11 +17,11 @@ class Generator
   end
 
   def random_add(obj)
-    obj.readers[0] << Reader.new(name: Faker::Name.name, email: Faker::Internet.email,
+    obj.readers << Reader.new(name: Faker::Name.name, email: Faker::Internet.email,
                              city: Faker::Address.city, street: Faker::Address.street_name,
                              house: Faker::Number.between(1, 100))
-    obj.authors[0] << random_author = Author.new(Faker::Book.author, Faker::String.random)
-    obj.books[0] << Book.new(Faker::Book.title, random_author)
+    obj.authors << random_author = Author.new(Faker::Book.author, Faker::String.random)
+    obj.books << Book.new(Faker::Book.title, random_author)
   end
 
   private
