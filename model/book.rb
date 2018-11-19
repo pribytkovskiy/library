@@ -3,9 +3,16 @@ class Book
   attr_reader :title, :author
 
   def initialize(title, author)
+    validate(title, author)
     @title = title
     @author = author
-    StringError.new.check_string(@title)
-    WrongClassError.new.chek_instance(@author, Author)
+  end
+
+  private
+
+  def validate(title, author)
+    check_class(title, String)
+    check_string_for_empty(title)
+    check_class(author, Author)
   end
 end

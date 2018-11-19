@@ -1,6 +1,7 @@
 require 'date'
 require 'yaml'
 require 'faker'
+require './modules/errors.rb'
 require './modules/validation.rb'
 
 require './model/reader.rb'
@@ -9,6 +10,6 @@ require './model/book.rb'
 require './model/order.rb'
 
 require './modules/statistic.rb'
-require './modules/initialize.rb'
+require './modules/generator.rb'
 require './modules/uploader.rb'
 require './model/library.rb'

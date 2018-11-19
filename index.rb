@@ -1,8 +1,10 @@
 require './auto_load.rb'
 
 library = Library.new
+generator = Generator.new
+generator.init_library
 library.load
-library.random_add
+generator.random_add(library)
 library.save
 
 puts "Best reader: #{library.often_take_book_reader}"

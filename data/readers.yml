@@ -1,31 +1,31 @@
 ---
 - - !ruby/object:Reader
-    name: Luciano Bruen DDS
-    email: rico@weinat.co
-    city: Binsfort
-    street: Lee Plains
-    house: 18
+    name: Mauricio O'Hara
+    email: glynis@schoenpfannerstill.org
+    city: Kossstad
+    street: Jesusita Freeway
+    house: 2
   - !ruby/object:Reader
-    name: Darwin Will IV
-    email: joliecollins@paucekstamm.com
-    city: Ludivinahaven
-    street: Tracie Via
-    house: 40
+    name: Ms. Ross Medhurst
+    email: cedric@mitchell.io
+    city: Zeldaborough
+    street: O'Kon Streets
+    house: 8
   - !ruby/object:Reader
-    name: Vance Bernier
-    email: allan@batzernser.info
-    city: Paulettaborough
-    street: Reinger Gateway
-    house: 47
+    name: Risa Pfeffer
+    email: annmariehodkiewicz@jacobson.name
+    city: Wildermanstad
+    street: Kub Grove
+    house: 17
   - !ruby/object:Reader
-    name: Zack Waters IV
-    email: kenyattaruel@kris.io
-    city: Bartonton
-    street: Kuphal Spring
-    house: 6
+    name: Marcelo Cummings PhD
+    email: manbernhard@langworth.net
+    city: North Jody
+    street: Langworth Park
+    house: 77
   - !ruby/object:Reader
-    name: Miss Gregg Harber
-    email: desmondspencer@auerstark.co
-    city: Hoppeshire
-    street: Haley Gardens
-    house: 24
+    name: Julian Hoeger
+    email: charoletteconn@franecki.org
+    city: North Pastyshire
+    street: Franklyn Points
+    house: 30

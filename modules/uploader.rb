@@ -1,5 +1,4 @@
 module Uploader
-  include Initialize
 
   def load
     self.readers << YAML.safe_load(File.read('./data/readers.yml'), [Reader], [], [], true)
