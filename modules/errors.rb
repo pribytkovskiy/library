@@ -10,4 +10,10 @@ module Errors
       super('You try to send empty string!')
     end
   end
+
+  class NotLibraryEntity < StandardError
+    def initialize
+      super('Not library entity!')
+    end
+  end
 end

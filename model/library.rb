@@ -1,7 +1,7 @@
 class Library
+  include Uploader
   include Statistic
   attr_reader :books, :readers, :authors, :orders
-  WHITE_LIST = [Book, Reader, Author, Order, Date].freeze
 
   def initialize
     @readers = []
@@ -10,15 +10,17 @@ class Library
     @orders = []
   end
 
-  def load
-    CLASS_NAME.each do |name|
-      instance_variable_set("@#{name}s", YAML.safe_load(File.read("#{PATH}#{name}s.yml"), WHITE_LIST, [], [], true))
-    end
+  def add
+    @books = load(:books)
+    @readers = load(:readers)
+    @authors = load(:authors)
+    @orders = load(:orders)
   end
 
-  def save
-    CLASS_NAME.each do |name|
-      File.open("#{PATH}#{name}s.yml", 'w') { |f| f.write instance_variable_get("@#{name}s").to_yaml }
-    end
+  def store
+    save(:books, @books)
+    save(:readers, @readers)
+    save(:authors, @authors)
+    save(:orders, @orders)
   end
 end
