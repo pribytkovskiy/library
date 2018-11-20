@@ -1,23 +1,25 @@
 ---
 - !ruby/object:Book
-  title: Some Buried Caesar
+  title: Postern of Fate
   author: &1 !ruby/object:Author
-    name: Ms. Salvatore Rowe
-    biography: "泇 3㯡 㦮଒\U000ADA54- n 뭬<R U\U000E4071㍶0  㖌Ac\U000F63A2༟QF\U0010375FC굣"
+    name: Dr. Issac Tremblay
+    biography: "疠( 坷챳\x018쟳/\U000F4664 $\x18\t\U000B2928 \U000A3649\U000517FES?ꋭ錞
+      lደH?\x7F搓\U00023B83$\U0008028C"
 - !ruby/object:Book
-  title: The Doors of Perception
+  title: Edna O'Brien
   author: *1
 - !ruby/object:Book
-  title: The Wealth of Nations
+  title: The Mirror Crack'd from Side to Side
   author: *1
 - !ruby/object:Book
-  title: Mr Standfast
+  title: Jacob Have I Loved
   author: !ruby/object:Author
-    name: Antione Barrows
-    biography: " ㊒\x14D⭍ẗ\U00040D4D9᣶Y䗲$N: 昔, \x1D\U000F9F6A἞@쁇\U000A3AE5R D\U0010C9BA
-      \ \U0005DB6DY"
+    name: Jo Nolan DVM
+    biography: "\U000B6314뺚\U0004FF60T\U0009410C Y뺬\U000E7B87N\U00098B03(<@3\U0004B800\tyJ
+      \ ,ⲻ\x19\U0007A350Y1\x16 0䕩\U000A5B1E"
 - !ruby/object:Book
-  title: The Golden Apples of the Sun
+  title: Look Homeward, Angel
   author: !ruby/object:Author
-    name: Mr. Randall Sanford
-    biography: " ꆳ,=#F.E\U0004F3CE  ꡁx H\U0005C427WS'\v\U000F4A9E\U0005B5E8# 䜠襜Ᾱg絜O闻\U00097C35"
+    name: Rosalinda Kreiger
+    biography: "篑./F\U000CA9C3⭯\U00072472Q\U00031BE7cL\U00095422\U000C6CD8嫎gᦢ\U0008538E,@
+      &8\U0009D172\U000B5130剿\U000328B5  f㺔Q쇑"

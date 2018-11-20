@@ -1,6 +1,4 @@
 module Statistic
-  ARR_PARAM_SORT = [:reader, :book].freeze
-
   def often_take_book_reader(orders, popular_readers = 1)
     group_sort(orders, :reader, popular_readers)
   end
@@ -13,12 +11,13 @@ module Statistic
     popular_orders = group_sort(orders, :book).take(popular_book_count).map { |book_orders| book_orders[1] }
     popular_orders.flatten.map(&:reader).uniq.size
   end
+
   private
 
   def group_sort(orders, param_sort, depth = nil)
     return unless ARR_PARAM_SORT.include? param_sort
 
-    group_sort_param = orders.group_by(&:"#{param_sort}").sort_by { |_, order| -order.size }
+    group_sort_param = orders.group_by(&param_sort).sort_by { |_, order| -order.size }
 
     return group_sort_param unless depth
 

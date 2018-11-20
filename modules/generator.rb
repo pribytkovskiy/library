@@ -70,9 +70,8 @@ class Generator
   end
 
   def save_obj_to_file
-    File.open('./data/books.yml', 'w') { |file| file.write(@books.to_yaml) }
-    File.open('./data/readers.yml', 'w') { |file| file.write(@readers.to_yaml) }
-    File.open('./data/authors.yml', 'w') { |file| file.write(@authors.to_yaml) }
-    File.open('./data/orders.yml', 'w') { |file| file.write(@orders.to_yaml) }
+    CLASS_NAME.each do
+      |name| File.open("#{PATH}#{name}s.yml", 'w') { |f| f.write instance_variable_get("@#{name}s").to_yaml }
+    end
   end
 end
