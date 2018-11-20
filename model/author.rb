@@ -9,7 +9,7 @@ class Author
   end
 
   private
-  
+
   def validate(name, biography)
     check_class(name, String)
     check_string_for_empty(name)

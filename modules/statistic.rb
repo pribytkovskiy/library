@@ -21,6 +21,6 @@ module Statistic
 
     return group_sort_param unless depth
 
-    group_sort_param.map { |group_orders| group_orders.first }.take(depth)
+    group_sort_param.map(&:first).take(depth)
   end
 end

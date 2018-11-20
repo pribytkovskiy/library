@@ -18,8 +18,8 @@ class Generator
 
   def random_add(obj)
     obj.readers << Reader.new(name: Faker::Name.name, email: Faker::Internet.email,
-                             city: Faker::Address.city, street: Faker::Address.street_name,
-                             house: Faker::Number.between(1, 100))
+                              city: Faker::Address.city, street: Faker::Address.street_name,
+                              house: Faker::Number.between(1, 100))
     obj.authors << random_author = Author.new(Faker::Book.author, Faker::String.random)
     obj.books << Book.new(Faker::Book.title, random_author)
   end
@@ -40,20 +40,20 @@ class Generator
 
   def init_readers
     @readers << @first_reader = Reader.new(name: Faker::Name.name, email: Faker::Internet.email,
-                                         city: Faker::Address.city, street: Faker::Address.street_name,
-                                         house: Faker::Number.between(1, 100))
+                                           city: Faker::Address.city, street: Faker::Address.street_name,
+                                           house: Faker::Number.between(1, 100))
 
     @readers << @second_reader = Reader.new(name: Faker::Name.name, email: Faker::Internet.email,
-                                          city: Faker::Address.city, street: Faker::Address.street_name,
-                                          house: Faker::Number.between(1, 100))
+                                            city: Faker::Address.city, street: Faker::Address.street_name,
+                                            house: Faker::Number.between(1, 100))
 
     @readers << @third_reader = Reader.new(name: Faker::Name.name, email: Faker::Internet.email,
-                                         city: Faker::Address.city, street: Faker::Address.street_name,
-                                         house: Faker::Number.between(1, 100))
+                                           city: Faker::Address.city, street: Faker::Address.street_name,
+                                           house: Faker::Number.between(1, 100))
 
     @readers << @fourth_reader = Reader.new(name: Faker::Name.name, email: Faker::Internet.email,
-                                          city: Faker::Address.city, street: Faker::Address.street_name,
-                                          house: Faker::Number.between(1, 100))
+                                            city: Faker::Address.city, street: Faker::Address.street_name,
+                                            house: Faker::Number.between(1, 100))
   end
 
   def init_orders
@@ -70,8 +70,8 @@ class Generator
   end
 
   def save_obj_to_file
-    CLASS_NAME.each do
-      |name| File.open("#{PATH}#{name}s.yml", 'w') { |f| f.write instance_variable_get("@#{name}s").to_yaml }
+    CLASS_NAME.each do |name|
+      File.open("#{PATH}#{name}s.yml", 'w') { |f| f.write instance_variable_get("@#{name}s").to_yaml }
     end
   end
 end
