@@ -1,16 +1,13 @@
 require 'date'
 require 'yaml'
 require 'faker'
-require './modules/uploader.rb'
 require './modules/errors.rb'
 require './modules/validation.rb'
-
 require './model/reader.rb'
 require './model/author.rb'
 require './model/book.rb'
 require './model/order.rb'
-
-require './modules/constants.rb'
+require './modules/uploader.rb'
 require './modules/statistic.rb'
 require './modules/generator.rb'
 require './model/library.rb'

@@ -1,4 +1,6 @@
 module Statistic
+  ARR_PARAM_SORT = %i[reader book].freeze
+
   def often_take_book_reader(orders, popular_readers = 1)
     group_sort(orders, :reader, popular_readers)
   end

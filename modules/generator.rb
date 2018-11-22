@@ -1,4 +1,6 @@
 class Generator
+  CLASS_NAME = %i[book reader author order].freeze
+  PATH = './data/'.freeze
   attr_reader :readers, :authors, :books, :orders
 
   def initialize
@@ -16,12 +18,12 @@ class Generator
     save_obj_to_file
   end
 
-  def random_add(obj)
-    obj.readers << Reader.new(name: Faker::Name.name, email: Faker::Internet.email,
+  def random_add(library)
+    library.readers << Reader.new(name: Faker::Name.name, email: Faker::Internet.email,
                               city: Faker::Address.city, street: Faker::Address.street_name,
                               house: Faker::Number.between(1, 100))
-    obj.authors << random_author = Author.new(Faker::Book.author, Faker::String.random)
-    obj.books << Book.new(Faker::Book.title, random_author)
+    library.authors << random_author = Author.new(Faker::Book.author, Faker::String.random)
+    library.books << Book.new(Faker::Book.title, random_author)
   end
 
   private

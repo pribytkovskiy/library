@@ -1,4 +1,7 @@
 module Uploader
+  PATH = './data/'.freeze
+  WHITE_LIST = [Book, Reader, Author, Order, Date].freeze
+
   def load(file_name)
     YAML.safe_load(File.read("#{PATH}#{file_name}.yml"), WHITE_LIST, [], [], true)
   end

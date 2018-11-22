@@ -1,24 +1,22 @@
 ---
 - !ruby/object:Book
-  title: When the Green Woods Laugh
+  title: The Millstone
   author: &1 !ruby/object:Author
-    name: Danyel Kunde
-    biography: " 3Q6\U000EC3C3{=O0 !憡 \x05\U00089197  O꧲삵ꢯ\0ꭲ\U000BA966\U0008FE2CH
-      \bK L6"
+    name: Deeanna Bahringer
+    biography: " Ow&M\U000E7331ᯞN읟 \U000DF2A6P佊:9\U00042DB2齚\x01mWW誠 \"\U00073B79\U0006D6A1\U000A0422奠쨽\x16篤\U000A5E7C"
 - !ruby/object:Book
-  title: A Monstrous Regiment of Women
+  title: The Parliament of Man
   author: *1
 - !ruby/object:Book
-  title: Alone on a Wide, Wide Sea
+  title: The World, the Flesh and the Devil
   author: *1
 - !ruby/object:Book
-  title: If Not Now, When?
+  title: All the King's Men
   author: !ruby/object:Author
-    name: Ruben Connelly
-    biography: "?&.+\U0003C307\U0004F3AE 0 筥O\U0009C802U\U000375B1\U000BC64D ޢ鱝 M\U000E4CE3鬐
-      \  % 㮟\U0008E551g  "
+    name: Karry Ernser
+    biography: " F\U0003F195\x19\U0002B127鍪铵T \U000DDB50W \U000DB54B ᙻ }\U0004DC4EG$\U00037762n\U000F3625\"\U0004FE74q\x13髫ାL/."
 - !ruby/object:Book
-  title: The Curious Incident of the Dog in the Night-Time
+  title: Lilies of the Field
   author: !ruby/object:Author
-    name: Zola Gorczany
-    biography: "鳗 \a-⻁ aU฿  @PJ\U000356B17< 䜲ਕ \U0004C2E1\U0008205D 1嬱荵D[3 \t"
+    name: Cruz Reichel
+    biography: "2w F섒ᛸ읚N\U0001C751IJ;肷\U000FFAFFD@HVS㮂\x01\"+|6\U000E11CC7  AQ䋁"
