@@ -42,4 +42,3 @@ Project must have a  hierarchy. Don't put all files in the root of the project.
 Intentations and “pretty” view of a code
 Project must have Pull Request on Git repository opened
 All branches/commits/modules/classes/methods/variables/files should be named correctly
-

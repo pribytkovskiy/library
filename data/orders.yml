@@ -1,0 +1,73 @@
+---
+- !ruby/object:Order
+  book: &1 !ruby/object:Book
+    title: The Millstone
+    author: &2 !ruby/object:Author
+      name: Deeanna Bahringer
+      biography: " Ow&M\U000E7331ᯞN읟 \U000DF2A6P佊:9\U00042DB2齚\x01mWW誠 \"\U00073B79\U0006D6A1\U000A0422奠쨽\x16篤\U000A5E7C"
+  reader: &3 !ruby/object:Reader
+    name: Mrs. Alethea Armstrong
+    email: davidosinski@effertzokuneva.info
+    city: Markusmouth
+    street: Marcelo Ridges
+    house: 2
+  date: 2018-11-18
+- !ruby/object:Order
+  book: *1
+  reader: &5 !ruby/object:Reader
+    name: Shane Cole
+    email: lucienne@price.co
+    city: Harriston
+    street: Zemlak Corners
+    house: 63
+  date: 2018-11-12
+- !ruby/object:Order
+  book: *1
+  reader: &6 !ruby/object:Reader
+    name: German Reynolds III
+    email: jamisonmarvin@murphy.biz
+    city: Alihaven
+    street: Jong Parkway
+    house: 96
+  date: 2018-10-19
+- !ruby/object:Order
+  book: *1
+  reader: !ruby/object:Reader
+    name: Danial Okuneva
+    email: erich@stroman.name
+    city: Effertzhaven
+    street: Jast Wall
+    house: 84
+  date: 2018-09-18
+- !ruby/object:Order
+  book: &4 !ruby/object:Book
+    title: The Parliament of Man
+    author: *2
+  reader: *3
+  date: 2018-11-03
+- !ruby/object:Order
+  book: *4
+  reader: *5
+  date: 2018-11-18
+- !ruby/object:Order
+  book: *4
+  reader: *6
+  date: 2018-09-11
+- !ruby/object:Order
+  book: &7 !ruby/object:Book
+    title: The World, the Flesh and the Devil
+    author: *2
+  reader: *3
+  date: 2018-10-10
+- !ruby/object:Order
+  book: *7
+  reader: *5
+  date: 2018-10-24
+- !ruby/object:Order
+  book: !ruby/object:Book
+    title: All the King's Men
+    author: !ruby/object:Author
+      name: Karry Ernser
+      biography: " F\U0003F195\x19\U0002B127鍪铵T \U000DDB50W \U000DB54B ᙻ }\U0004DC4EG$\U00037762n\U000F3625\"\U0004FE74q\x13髫ାL/."
+  reader: *3
+  date: 2018-11-21

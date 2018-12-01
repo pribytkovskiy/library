@@ -1,0 +1,31 @@
+---
+- !ruby/object:Reader
+  name: Mrs. Alethea Armstrong
+  email: davidosinski@effertzokuneva.info
+  city: Markusmouth
+  street: Marcelo Ridges
+  house: 2
+- !ruby/object:Reader
+  name: Shane Cole
+  email: lucienne@price.co
+  city: Harriston
+  street: Zemlak Corners
+  house: 63
+- !ruby/object:Reader
+  name: German Reynolds III
+  email: jamisonmarvin@murphy.biz
+  city: Alihaven
+  street: Jong Parkway
+  house: 96
+- !ruby/object:Reader
+  name: Danial Okuneva
+  email: erich@stroman.name
+  city: Effertzhaven
+  street: Jast Wall
+  house: 84
+- !ruby/object:Reader
+  name: Kendra Block
+  email: angelena@lehner.com
+  city: Rodriguezborough
+  street: Cathie Drives
+  house: 85
